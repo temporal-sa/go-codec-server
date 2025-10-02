@@ -18,7 +18,6 @@ Before getting started, ensure you have the following tools installed:
 - [Go](https://golang.org/doc/install) (1.23.0 or later)
 - [tcld](https://docs.temporal.io/cloud/tcld) (Temporal Cloud CLI)
 - [mkcert](https://github.com/FiloSottile/mkcert) (for local SSL certificates)
-- [temporal](https://docs.temporal.io/cli) (Temporal CLI - optional, for viewing workflows)
 
 ## Quick Start
 
