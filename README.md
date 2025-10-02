@@ -85,10 +85,10 @@ The worker accepts the following environment variables:
 
 | Variable | Description | Default |
 |----------|-------------|---------|
-| `TLS_CERT_PATH` | Path to client certificate | `/Users/tusharb/workspace/temporal-certs/client.pem` |
-| `TLS_KEY_PATH` | Path to client key | `/Users/tusharb/workspace/temporal-certs/client.key` |
-| `TEMPORAL_HOST_PORT` | Temporal server endpoint | `tusharb-demo-mtls.sdvdw.tmprl.cloud:7233` |
-| `TEMPORAL_NAMESPACE` | Temporal namespace | `tusharb-demo-mtls.sdvdw` |
+| `TLS_CERT_PATH` | Path to client certificate | `""` |
+| `TLS_KEY_PATH` | Path to client key | `""` |
+| `TEMPORAL_HOST_PORT` | Temporal server endpoint | `localhost:7233` |
+| `TEMPORAL_NAMESPACE` | Temporal namespace | `default` |
 
 ### Codec Server Options
 
